@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    overflow:hidden;
+    color:white;
+    background-color:black;
+}
+.main{
+    display:flex;
+}
