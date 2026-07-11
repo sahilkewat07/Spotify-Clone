@@ -121,3 +121,28 @@ a{
     padding:0.25rem 1rem;   
     width:fit-content;
 }
+.dark-badge{
+    background-color:black;
+    color:white;
+}
+/*Sticky nav*/
+.sticky-nav{
+    background-color:black;
+    display:flex;
+    justify-content: space-between;   
+    align-items:center;
+    position:sticky;
+    top:0px;
+    padding:1rem 0 1rem 0;
+}
+.sticky-nav-icons{
+    margin-left:0.75rem;
+}
+.sticky-nav-badges{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.nav-badges-item{
+    margin-right:1.5rem;
+}
