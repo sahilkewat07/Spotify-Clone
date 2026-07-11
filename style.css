@@ -3,16 +3,22 @@
     font-family: "Montserrat", sans-serif;
     overflow:hidden;
     color:white;
-    background-color:black;
+    /*background-color:black; */
+}
+body{
+    background-color: black;
+    
 }
 .main{
     display:flex;
     height:100vh;
+    padding:0.7rem;
 }
 .sidebar{
-    background-color: yellow;
+    background-color: black;
     width:330px;
     border-radius:1rem;
+    margin-right:0.5rem;
 }
 .main-content{
     background-color: #121212;
@@ -31,6 +37,8 @@
 a{
     text-decoration: none;
 }
+
+/* Navigations */
 .nav{
     background-color: #121212;
     border-radius: 1rem;
@@ -55,7 +63,7 @@ a{
     margin-left:1rem;
     font-size:1rem;
 }
-
+/* Library */
 .libraries{
     height:100%;
     background-color: #121212;
@@ -82,4 +90,34 @@ a{
 }
 .icons i:hover{
     opacity:1;
+}
+
+.box{
+    height:8rem;
+    background-color:#232323;
+    border-radius:1rem;
+    padding:0.75rem 1rem;
+    margin:0.75rem 0 1.75rem 0;
+    
+}
+.box-p1{
+    font-size:1rem;
+    font-weight: 500;
+    margin-bottom:0.6rem;
+}
+.box-p2{
+    font-size:0.85rem;
+    opacity:0.9;
+    margin-bottom:1rem;
+}
+.badge{
+    border:none;
+    background-color:white;
+    color:black;
+    border-radius:100px;
+    font-weight:500;
+    margin-top:0.5rem;
+    height:2rem;
+    padding:0.25rem 1rem;   
+    width:fit-content;
 }
