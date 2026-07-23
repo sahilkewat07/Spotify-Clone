@@ -243,3 +243,38 @@ a{
     background-color:#1bd760; 
     margin-top:-6px;
 }
+.album{
+    display:flex;
+    /* justify-content:space-around; */
+    align-items:center;
+    margin:2rem;
+}
+.img-div-album{
+    height: 3rem;
+    width:3rem;
+    margin-right:1rem;
+}
+.img-div-album img{
+    height:100%;
+    width:100%;
+    border-radius:0.25rem;
+}
+.icon-album{
+    margin-left:1.5rem;
+    
+}
+.icon-album i{
+    opacity:0.8;
+    margin:0.2rem;
+    height:1rem;
+}
+.icon-album i:hover{
+    opacity:1;
+}
+.controls{
+    display:flex;
+    align-items:center;
+}
+.controls i {
+    padding:0.5rem;
+}
